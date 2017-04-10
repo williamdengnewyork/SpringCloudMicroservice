@@ -96,18 +96,18 @@ http://localhost:3333/accounts/owner/Keri
 
  
 
- 
-
 Run in Command Line
 -------------------
 
 1.  Window1, `mvn clean package`
 
-2.  Window1: `java -jar target/microservice-demo-1.1.0.RELEASE.jar registration`
+2.  Window1: `java -jar target/`SpringCloudMicroservice`-1.1.0.RELEASE.jar
+    registration`
 
-3.  Window2: `java -jar target/microservice-demo-1.1.0.RELEASE.jar accounts`
+3.  Window2: `java -jar target/`SpringCloudMicroservice`-1.1.0.RELEASE.jar
+    accounts`
 
-4.  Window3: `java -jar target/microservice-demo-1.1.0.RELEASE.jar web`
+4.  Window3: `java -jar target/`SpringCloudMicroservice`-1.1.0.RELEASE.jar web`
 
 5.  In browser access two links:
 
@@ -121,7 +121,8 @@ Run in Command Line
 
 1.  Window4: run up another **account-server** using HTTP port 2223:
 
-    -   `java -jar target/microservice-demo-0.0.1-SNAPSHOT.jar accounts 2223`
+    -   `java -jar target/`SpringCloudMicroservice`-0.0.1-SNAPSHOT.jar accounts
+        2223`
 
 2.  Allow it to register itself
 
@@ -132,4 +133,4 @@ Run in Command Line
 
  
 
-https://spring.io/blog/2015/07/14/microservices-with-spring
+ 
